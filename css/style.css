@@ -131,7 +131,10 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .adv-serach a{color: #9cbbcc; text-decoration: none; text-transform: uppercase; font-size: 10px;}
 
 .btn-form1-submit{display: inline-block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans Condensed'; font-size: 14px; line-height: 42px; padding: 0 60px 0 25px; text-transform: uppercase; letter-spacing: 1px; background: #2e393f; position: relative; overflow: hidden; border: 1px solid #1c2931;}
-.btn-form1-submit:hover{color: #fff; background: #fe0f01; border: 1px solid #fe0f01;}
+.btn-form1-submit:hover {
+    color: black;
+    background: white;
+}
 .btn-form1-submit span{position: relative; display: inline-block;}
 .btn-form1-submit:before{content: ''; display: block; width: 60px; height: 60px; position: absolute; right: -10px; top: 0;
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
@@ -187,11 +190,11 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #welcome .logo-s img{display: inline-block;}
 #welcome .txt1{text-align: center; color: #fff; letter-spacing: 2px; text-transform: uppercase; font-size: 14px; font-weight: 700; font-family: 'Open Sans Condensed'; position: relative; padding-bottom: 20px; margin-bottom: 30px;}
 #welcome .txt1:after{content: ''; display: block; width: 60px; height: 3px; background: #fff; position: absolute; left: 50%; margin-left: -30px; bottom: 0;}
-#welcome .txt2{text-align: right; font-size: 17px; color: #fff; padding-right: 15px;}
-#welcome .txt2 b{color: #e30000;}
-#welcome .txt3{padding-left: 15px; position: relative; font-family: 'Open Sans Condensed'; font-size: 52px; color: #fff; font-weight: bold; text-transform: uppercase; line-height: 1.05;}
+#welcome .txt2{text-align: right; font-size: 17px; color: black; padding-right: 15px;}
+#welcome .txt2 b{color: #1c2931;}
+#welcome .txt3{padding-left: 15px; position: relative; font-family: 'Open Sans Condensed'; font-size: 52px; color: black; font-weight: bold; text-transform: uppercase; line-height: 1.05;}
 #welcome .txt3:before{content: ''; display: block; width: 1px; height: 100%; background: #1c2931; position: absolute; left: -15px; top: 0;}
-#welcome .txt3 span{color: #e30000;}
+#welcome .txt3 span{color: #1c2931;}
 
 #best{position: relative; padding-top: 70px; padding-bottom: 80px;}
 
@@ -246,7 +249,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .review_pagination{display: block; vertical-align: top; padding-top: 20px; text-align: center;}
 .review_pagination a{display: inline-block; width:13px; height:13px; margin: 0 13px 0 0;position: relative;}
 .review_pagination a span{display:block;width: 100%; height: 100%; background: none; text-indent: -9999%; cursor:pointer; position: relative; overflow: hidden;background: #1c2931;}
-.review_pagination a:hover span, .review_pagination a.selected span{background: #e30000;}
+.review_pagination a:hover span, .review_pagination a.selected span{background: #999999;}
 
 
 #review .carousel-box{position: relative;}
@@ -371,7 +374,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .form2 #slider-range-wrapper .txt{position: relative; left: auto; top: auto;font-size: 10px; color: #999999; text-transform: uppercase; display: block; margin: 0 0 10px; font-weight: 400; padding-bottom: 0;}
 
 .btn-form2-submit{display: block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans'; font-size: 14px; line-height: 42px; padding: 0 5px; text-transform: uppercase; letter-spacing: 0px; background: #1c2931; position: relative; border: none; width: 100%; text-align: center; margin-bottom: 5px;}
-.btn-form2-submit:hover{color: #fff; background: #e30000;}
+.btn-form2-submit:hover{color: #fff; background: #999999;}
 .btn-form2-submit:after{ content: "\f105"; font-family: 'FontAwesome'; display: inline-block; font-size: 16px; margin-left: 15px;}
 
 .reset-filters{}
@@ -398,7 +401,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .car-view1 .txt2{padding-bottom: 10px;}
 .car-view1 .txt2 .txt{font-size: 10px; color: #999999; display: inline-block; padding-right: 15px;}
 .car-view1 .txt2 .stars{}
-.car-view1 .txt3{background: #e30000; min-width: 110px; text-align: right; font-size: 20px; line-height: 1; color: #fff; padding: 8px 10px; font-weight: 600; margin-bottom: 10px;}
+.car-view1 .txt3{background: #999999; min-width: 110px; text-align: right; font-size: 20px; line-height: 1; color: #fff; padding: 8px 10px; font-weight: 600; margin-bottom: 10px;}
 .car-view1 .txt4{color: #666666; padding-bottom: 15px;}
 .car-view1 .bot-info{}
 .car-view1 .info3{float: left;max-width: 60%;}
@@ -426,7 +429,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .car-view2 .bot-info{}
 .car-view2 .info2{float: left; width: 47%;}
 .car-view2 .info3{float: right; width: 47%;}
-.car-view2 .txt6{background: #e30000; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
+.car-view2 .txt6{background: #999999; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
 .car-view2 .txt7{margin-bottom: 10px;}
 
 .car-view3-wrapper{padding-bottom: 16px; margin-bottom: 25px;}
@@ -441,7 +444,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .car-view3 .txt2{padding-bottom: 10px;}
 .car-view3 .txt2 .txt{font-size: 10px; color: #999999; display: inline-block; padding-right: 15px;}
 .car-view3 .txt2 .stars{}
-.car-view3 .txt3{background: #e30000; min-width: 110px; text-align: right; font-size: 20px; line-height: 1; color: #fff; padding: 8px 10px; font-weight: 600; margin-bottom: 10px;}
+.car-view3 .txt3{background: #999999; min-width: 110px; text-align: right; font-size: 20px; line-height: 1; color: #fff; padding: 8px 10px; font-weight: 600; margin-bottom: 10px;}
 .car-view3 .txt4{color: #666666; padding-bottom: 15px;}
 .car-view3 .bot-info{}
 .car-view3 .info3{float: left;max-width: 60%;}
@@ -469,7 +472,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .car-view4 .bot-info{}
 .car-view4 .info2{float: left; width: 47%;}
 .car-view4 .info3{float: right; width: 47%;}
-.car-view4 .txt6{background: #e30000; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
+.car-view4 .txt6{background: #999999; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
 .car-view4 .txt7{margin-bottom: 10px;}
 /* ============================= listing end ====================== */
 
@@ -486,7 +489,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .banner2 .txt2{}
 .banner2 .txt2 .txt{font-size: 10px; color: #999999; display: inline-block; padding-right: 15px;}
 .banner2 .txt2 .stars{}
-.banner2 .txt3{background: #e30000; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
+.banner2 .txt3{background: #999999; text-align: center; font-size: 16px; line-height: 20px; color: #fff; padding: 6px 5px 5px; font-weight: 600; margin-bottom: 10px;}
 .banner2 .txt4{font-size: 15px; font-weight: 700; color: #1c2931; padding-bottom: 10px;}
 .banner2 .txt5{font-size: 13px; font-weight: 400; color: #999999; padding-bottom: 10px;}
 .banner2 .form-wrapper{position: relative;}
@@ -568,7 +571,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .parallax .parallax-content { position: relative; }
 
 
-.bg1 { background-image: url("../images/showroom_lessencedelautomobile.jpg"); }
+.bg1 {  }
 
 
 #parallax1{padding-top: 60px; padding-bottom: 320px;}
@@ -691,7 +694,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 
 /* === */
-.stars{color: #e30000; font-size: 13px; display: inline-block;}
+.stars{color: #999999; font-size: 13px; display: inline-block;}
 
 .ul1{padding: 0; margin: 0; list-style: none;}
 .ul1 li{display: block;position: relative; border-right: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee;}
@@ -732,11 +735,11 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
     -ms-transform: skewX(-25deg);
     transform: skewX(-25deg);
 }
-.btn-default.btn1:hover:before{background: #e30000;}
+.btn-default.btn1:hover:before{background: #999999;}
 .btn-default.btn1:after{ content: "\f105"; font-family: 'FontAwesome'; display: inline-block; position: absolute; right: 0; top: 0; font-size: 14px; color: #fff; width: 30px; text-align: center;}
 
 .btn-default.btn2{display: block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans'; font-size: 14px; line-height: 42px; padding: 0 5px; text-transform: uppercase; letter-spacing: 0px; background: #1c2931; position: relative; border: none; width: 100%; text-align: center; margin-bottom: 0px; border: 1px solid #fff;}
-.btn-default.btn2:hover{color: #fff; background: #e30000; border-color: #e30000;}
+.btn-default.btn2:hover{color: #fff; background: #999999; border-color: #999999;}
 .btn-default.btn2:after{ content: "\f105"; font-family: 'FontAwesome'; display: inline-block; font-size: 16px; margin-left: 15px;}
 
 .btn-default.btn3{display: block; text-decoration: none; color: #1c2931; font-weight: 700; font-family: 'Open Sans'; font-size: 10px; line-height: 29px; padding: 0 5px; text-transform: uppercase; letter-spacing: 0px; background: #fff; position: relative; border: none; width: 100%; text-align: center; margin-bottom: 0px; border: 1px solid #1c2931;}
@@ -844,7 +847,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #ajax-contact-form2 .form-group.img img{width:170px; height:38px;}
 
 .btn-default.btn-cf-submit2{display: block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans'; font-size: 14px; line-height: 40px; padding: 0 5px; text-transform: uppercase; letter-spacing: 0px; background: #1c2931; position: relative; border: none; width: 100%; text-align: center; margin-bottom: 0px; border: 1px solid #1c2931; margin-top: 15px;}
-.btn-default.btn-cf-submit2:hover{color: #fff; background: #e30000; border-color: #e30000;}
+.btn-default.btn-cf-submit2:hover{color: #fff; background: #999999; border-color: #999999;}
 .btn-default.btn-cf-submit2:before{ content: "\e076"; font-family: 'ElegantIcons'; display: inline-block; font-size: 14px; margin-right: 15px;}
 
 /*================= Contacts1 =========================*/
@@ -863,7 +866,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #ajax-contact-form1 .form-group.img img{width:170px; height:38px;}
 
 .btn-default.btn-cf-submit1{display: block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans'; font-size: 14px; line-height: 40px; padding: 0 5px; text-transform: uppercase; letter-spacing: 0px; background: #1c2931; position: relative; border: none; width: 100%; text-align: center; margin-bottom: 0px; border: 1px solid #1c2931; margin-top: 5px;}
-.btn-default.btn-cf-submit1:hover{color: #fff; background: #e30000; border-color: #e30000;}
+.btn-default.btn-cf-submit1:hover{color: #fff; background: #999999; border-color: #999999;}
 .btn-default.btn-cf-submit1:before{ content: "\e0e7"; font-family: 'ElegantIcons'; display: inline-block; font-size: 14px; margin-right: 15px;}
 
 /*================= Contacts3 =========================*/
@@ -882,7 +885,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #ajax-contact-form3 .form-group.img img{width:170px; height:38px;}
 
 .btn-default.btn-cf-submit3{display: inline-block; text-decoration: none; color: #fff; font-weight: 700; font-family: 'Open Sans'; font-size: 14px; line-height: 40px; padding: 0 35px; text-transform: uppercase; letter-spacing: 0px; background: #1c2931; position: relative; border: none;  text-align: center; margin-bottom: 0px; border: 1px solid #1c2931; margin-top: 15px;}
-.btn-default.btn-cf-submit3:hover{color: #fff; background: #e30000; border-color: #e30000;}
+.btn-default.btn-cf-submit3:hover{color: #fff; background: #999999; border-color: #999999;}
 .btn-default.btn-cf-submit3:before{ content: "\e076"; font-family: 'ElegantIcons'; display: inline-block; font-size: 14px; margin-right: 15px;}
 
 

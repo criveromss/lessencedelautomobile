@@ -45,7 +45,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .slides-container .caption .txt1 span:after{content: ''; display: block; width: 4px; height: 100%; background: #fff; position: absolute; right: 0; top: 0;}
 .slides-container .caption .txt2{font-size: 56px; padding-bottom: 20px;}
 .slides-container .caption .txt3{font-size: 25px; padding-bottom: 25px; letter-spacing: 2px;}
-.slides-container .caption .txt3 span{display: inline-block; background: #e30000; font-size: 20px; padding: 5px 35px; vertical-align: top; margin-left: 25px;}
+.slides-container .caption .txt3 span{display: inline-block; background: #999999; font-size: 20px; padding: 5px 35px; vertical-align: top; margin-left: 25px;}
 
 .slides-container .caption .link1{}
 
@@ -58,7 +58,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
     -ms-transform: skewX(-25deg);
     transform: skewX(-25deg);
 }
-.slider-link1:hover:before{background: #e30000;}
+.slider-link1:hover:before{background: #999999;}
 .slider-link1:after{ content: "\f105"; font-family: 'FontAwesome'; display: inline-block; position: absolute; right: 0; top: 0; font-size: 20px; color: #fff; width: 42px; text-align: center;}
 
 @media (max-width: 991px) {
